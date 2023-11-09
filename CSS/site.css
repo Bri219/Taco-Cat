@@ -1,84 +1,93 @@
-  :root {
-    --primary-color: #1d5888;
-    --secondary-color:#ff993b;
-    --dark-color:#292929;
-    --white-color: #f6ebeb;
-    --logo-blue:#3670f8;
-  }
+:root {
+  --primary-color: #1d5888;
+  --secondary-color: #ff993b;
+  --dark-color: #292929;
+  --white-color: #f6ebeb;
+  --logo-blue: #3670f8;
+}
 
-  body {
-    color: var(--dark-color);
-    /* overflow-y:hidden; */
-  }
+body {
+  color: var(--dark-color);
+  /* overflow-y:hidden; */
+}
 
-  nav {
-    background-color: var(--dark-color);
-  }
-  
-  footer {
-    background-color: var(--dark-color);
-  }
+nav {
+  background-color: var(--dark-color);
+}
 
-  h1,h2,h3,h4,h5,h6 {
-    color: var(--primary-color);
-  }
-   
-  footer {
-    padding-right: 1rem;
-  }
+footer {
+  background-color: var(--dark-color);
+}
 
-  footer .social>a {
-    color: var(--white-color);
-    opacity: 0.75;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
 
-  footer .social>a:hover{
-    opacity: 0.90;
-    color: var(--logo-blue);
-  }
+footer {
+  padding-right: 1rem;
+}
 
-  .bsicon {
-    color: #9900FF;
+footer .social > a {
+  color: var(--white-color);
+  opacity: 0.75;
+}
 
-  }
-    .jsicon {
-    color: rgb(226, 211, 4);
+footer .social > a:hover {
+  opacity: 0.9;
+  color: var(--logo-blue);
+}
 
-  }
+.bsicon {
+  color: #9900ff;
+}
+.jsicon {
+  color: rgb(226, 211, 4);
+}
 
-  .html5icon {
-    color: #f05e09
-  }
+.html5icon {
+  color: #f05e09;
+}
 
-  .cssicon {
-    color: rgb(48, 61, 240);
-  }
+.cssicon {
+  color: rgb(48, 61, 240);
+}
 /* 
   .checklist >li i{
    color: #ff993b;
   } */
 
 code[class*="language-"],
-    pre[class*="language-"] {
-    white-space: pre-wrap;
-    word-break: break-all;
-    word-wrap: break-word;
+pre[class*="language-"] {
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
-  main>.container {
-   padding: 60px 15px 0;
- }
-
- @media screen and (max-width: 400px) {
-.responsiveicon {
-font-size: 18vw;
+main > .container {
+  padding: 60px 15px 0;
 }
+
+@media screen and (max-width: 400px) {
+  .responsiveicon {
+    font-size: 18vw;
+  }
 }
 
 img {
+  max-width: 100%;
+  height: auto;
+}
 
-max-width: 100%;
 
-height: auto;
+img.svg-banner {
+  height: 65px;
+}
 
+.fa-check-square {
+  color: var(--secondary-color);
 }
