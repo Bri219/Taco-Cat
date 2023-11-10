@@ -50,3 +50,4 @@ function getValue(){
     document.getElementById("msg").innerHTML = `Your phrase reversed is: ${returnObj.reversed}`;
     document.getElementById("alert").classList.remove("invisible");
  };
+ 
