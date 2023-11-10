@@ -115,9 +115,36 @@ function getValue(){
                     </pre>
                 </div>
                 <div class="col-lg-4">
-                    <p>The Code is structered in one function</p>
-                    <h5>Hello World</h5>
-                    <p>Hello World is a function that displays an alert with a message of "Hello World".</p>
+                    <p>The Code is structered in three functions</p>
+                    <h5>Taco Cat: A Javascript Palindrome project</h5>
+                    <p>This JavaScript code defines three functions that work together to check if a user-entered string is a palindrome and display a corresponding message on the screen.
+
+                        getValue() Function:
+                        
+                        Hides an alert on the page by adding the "invisible" class to the element with the ID "alert."
+                        Retrieves the user input string from the HTML input element with the ID "userString."
+                        Calls the checkForPalindrome function with the user input and stores the result in the returnObj variable.
+                        Calls the displayMessage function with the returnObj as an argument.
+                        checkForPalindrome(userString) Function:
+                        
+                        Converts the user input string to lowercase.
+                        Removes spaces and special characters from the string using a regular expression.
+                        Initializes an empty array revString and an empty object returnObj.
+                        Iterates through the characters of the user string in reverse order and builds the reversed string.
+                        Checks if the reversed string is equal to the original string and sets the appropriate message in returnObj.msg.
+                        Sets the reversed string in returnObj.reversed.
+                        Returns the returnObj object.
+                        displayMessage(returnObj) Function:
+                        
+                        Updates the HTML content of elements with the IDs "alertHeader" and "msg" with information from the returnObj object.
+                        Removes the "invisible" class from the element with the ID "alert," making the alert visible on the page.
+                        Overall, these functions work together to take a user-entered string, check if it is a palindrome, and display a message on the webpage accordingly. The reversed string is also displayed as part of the message.
+                        
+                        
+                        
+                        
+                        
+                        </p>
                 </div>
             </div>
         </div>
