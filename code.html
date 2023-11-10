@@ -119,13 +119,14 @@ function getValue(){
                     <h5>Taco Cat: A Javascript Palindrome project</h5>
                     <p>
                         getValue() Function:
+                        
 
 Hides an alert on the page by adding the "invisible" class to the element with the ID "alert."
 Retrieves the user input string from the HTML input element with the ID "userString."
 Calls the checkForPalindrome function with the user input and stores the result in the returnObj variable.
 Calls the displayMessage function with the returnObj as an argument.
-checkForPalindrome(userString) Function:
 
+checkForPalindrome(userString) Function:
 Converts the user input string to lowercase using toLowerCase().
 Removes spaces and special characters from the string using a regular expression (/[^a-z0-9]/gi).
 Initializes an empty array revString and an empty object returnObj.
@@ -133,12 +134,15 @@ Iterates through the characters of the user string in reverse order and builds t
 Checks if the reversed string is equal to the original string and sets the appropriate message in returnObj.msg.
 Sets the reversed string in returnObj.reversed.
 Returns the returnObj object.
-displayMessage(returnObj) Function:
 
+
+displayMessage(returnObj) Function:
 Retrieves elements from the HTML with the IDs "alertHeader," "msg," and "alert."
 Sets the content of the element with the ID "alertHeader" to the message stored in returnObj.msg. This message indicates whether the entered string is a palindrome or not.
 Sets the content of the element with the ID "msg" to a message indicating the reversed version of the user's input.
 Removes the "invisible" class from the element with the ID "alert," making it visible on the page.
+
+
 In summary, the code is a simple web application that takes user input, checks if it's a palindrome,
  and displays a message on the webpage accordingly. The visibility of an alert is managed by adding or removing the "invisible" class, 
  and the result of the palindrome check, along with the reversed string, is displayed on the page.
