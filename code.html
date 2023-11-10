@@ -120,16 +120,16 @@ function getValue(){
                     <p>
                         This JavaScript code defines a simple web application for checking whether a user-entered string is a palindrome. 
                         Here's a breakdown of the code:
-
+                        <br>
                         getValue() Function:
-
+                        <br>
                         Hides an alert on the page by adding the "invisible" class to the element with the ID "alert."
                         Retrieves the user input string from the HTML input element with the ID "userString."
                         Calls the checkForPalindrome function with the user input and stores the result in the returnObj variable.
                         Calls the displayMessage function with the returnObj as an argument to show the result on the screen.
-
+                        <br>
                         checkForPalindrome(userString) Function:
-
+                        <br>
                         Converts the user input string to lowercase using toLowerCase().
                         Removes spaces and special characters from the string using a regular expression (/[^a-z0-9]/gi).
                         Initializes an empty array revString and an empty object returnObj.
@@ -137,14 +137,14 @@ function getValue(){
                         Checks if the reversed string is equal to the original string and sets the appropriate message in returnObj.msg.
                         Sets the reversed string in returnObj.reversed.
                         Returns the returnObj object.
-
+                        <br>
                         displayMessage(returnObj) Function:
-
+                        <br>
                        Retrieves elements from the HTML with the IDs "alertHeader," "msg," and "alert."
                        Sets the content of the element with the ID "alertHeader" to the message stored in returnObj.msg, indicating whether the entered string is a palindrome or not.
                        Sets the content of the element with the ID "msg" to a message indicating the reversed version of the user's input.
                        Removes the "invisible" class from the element with the ID "alert," making it visible on the page.
-
+                       <br>
                        In summary, the code allows users to input a string, checks if it's a palindrome (ignoring spaces and special characters), 
                        and displays a corresponding message on the webpage. The visibility of an alert is controlled, and the result of the palindrome check,
                         along with the reversed string, is presented to the user.
